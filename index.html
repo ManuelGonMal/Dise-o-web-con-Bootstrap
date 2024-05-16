@@ -11,21 +11,21 @@
 
 <body>
     <div class="container">
-        <header class="">
+        <header class="" id="home">
             <nav class="navbar navbar-danger bg-danger">
-                <div class="col-12 container-fluid">
+                <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="LOGO-KEBAB-FINAL-1.png" alt="Logo" width="120" height="35" class="d-inline-block align-text-top">
+                    <img src="imagenes/LOGO-KEBAB-FINAL-1.png" alt="Logo" width="120" height="35" class="d-inline-block align-text-top">
                 </a>
                 <div class="d-none d-lg-block col-sm-4">
                     <button type="button" class="btn btn-danger">
-                        <a class="nav-link" href="#">HOME</a>
+                        <a class="nav-link" href="#home">HOME</a>
                     </button>
                     <button type="button" class="btn btn-danger">
-                        <a class="nav-link" href="#">SOBRE NOSOTROS</a>
+                        <a class="nav-link" href="#nosotros">SOBRE NOSOTROS</a>
                     </button>
                     <button type="button" class="btn btn-danger">
-                        <a class="nav-link" href="#">DONDE ESTAMOS</a>
+                        <a class="nav-link" href="#donde">DONDE ESTAMOS</a>
                     </button>
                 </div>
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,42 +34,169 @@
                     <div class="collapse navbar-collapse mt-3" id="navbarNav">
                         <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link" href="#home">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SOBRE NOSOTROS</a>
+                            <a class="nav-link" href="#nosotros">SOBRE NOSOTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">DONDE ESTAMOS</a>
+                            <a class="nav-link" href="#donde">DONDE ESTAMOS</a>
                         </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <main class="col-12">
+        <main>
             <div class="imagen d-flex flex-column">
-                <div class="negro">
-                    <div class="info">
-                        <p class="sombra mb-0 mt-3 text-center fw-bold">ESPAÑA</p>
-                        <p class="sombra mb-1 text-center fw-bold">DÖNER KEBAB</p>
-                        <hr>
-                        <p class="mb-0 text-center fw-bold">España Döner Kebab – Comida Turca en Sevilla</p>
-                        <p class="mb-0 text-center fw-bold">Calle Flor de Salvia Nº2 – Sevilla</p>
-                        <p>Cumplimos con todos los procesos y protocolos de seguridad y prevención ante el COVID-19</p>
-                        <hr>
-                        <p class="mb-0 text-center">954 442 228</p>
-                        <p class="mb-0 text-center">955 158 525</p>
-                        <p class="text-center">631 770 100</p>
-                    </div>
+                <div class="info">
+                    <h2 class="sombra mb-0 mt-3 text-center fw-bold">ESPAÑA</h2>
+                    <h2 class="sombra mb-1 text-center fw-bold">DÖNER KEBAB</h2>
+                    <hr>
+                    <p class="mb-0 text-center fw-bold">España Döner Kebab – Comida Turca en Sevilla</p>
+                    <p class="mb-0 text-center fw-bold">Calle Flor de Salvia Nº2 – Sevilla</p>
+                    <p class="text-center">Cumplimos con todos los procesos y protocolos de seguridad y prevención ante el COVID-19</p>
+                    <hr>
+                    <p class="mb-0 text-center">954 442 228</p>
+                    <p class="mb-0 text-center">955 158 525</p>
+                    <p class="text-center">631 770 100</p>
+                    <div class="contenedor d-flex justify-content-center mb-3">
+                        <button type="button" class="btn btn-outline-danger mb-5">HAZ TU PEDIDO</button>
+                   </div>
                 </div>
             </div>
+            <section>
+                <div class="lo_mas_vendido row justify-content-center">
+                    <h3 class="text-center mt-3">Lo mas vendido</h3>
+                    <p class="text-center">Echa un vistazo a los últimos pedidos realizados!</p>
+                    <div class="col-3 m-4">
+                        <div class="card">
+                            <img class="card-img-top" src="imagenes/menu-pizza-300x291.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">MENÚ PIZZA CON PATATAS Y BEBIDA</h5>
+                                <p class="card-text text-center">8,50€</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn btn-outline-danger">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 m-4">
+                        <div class="card">
+                            <img class="card-img-top" src="imagenes/DONER-KEBAP-4-300x291.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">DONNER KEBAB DE POLLO</h5>
+                                <p class="card-text text-center">4,00€</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn btn-outline-danger">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 m-4">
+                        <div class="card">
+                            <img class="card-img-top" src="imagenes/DONER-KEBAP-4-300x291.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">DONNER KEBAB DE TERNERA</h5>
+                                <p class="card-text text-center">4,00€</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn btn-outline-danger">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 m-4">
+                        <div class="card">
+                            <img class="card-img-top" src="imagenes/DONER-KEBAP-4-300x291.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">DONNER KEBAB MIXTO</h5>
+                                <p class="card-text text-center">4,00€</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn btn-outline-danger">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 m-4">
+                        <div class="card">
+                            <img class="card-img-top" src="imagenes/DURUN-KEBAP-1-300x291.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">DURUM KEBAB DE POLLO</h5>
+                                <p class="card-text text-center">4,50€</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn btn-outline-danger">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 m-4">
+                        <div class="card">
+                            <img class="card-img-top" src="imagenes/DURUN-KEBAP-1-300x291.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">DURUM KEBAB DE TERNERA</h5>
+                                <p class="card-text text-center">4,50€</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn btn-outline-danger">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="row m-2">
+                <div class="col-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="imagenes/delivery-man.png" alt="">
+                    </div>
+                    <h5 class="text-center">Reparto Gratuito</h5>
+                    <p class="text-center">Reparto gratuito con pedidos superiores a 10€</p>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="imagenes/taco1.png" alt="">
+                    </div>
+                    <h5 class="text-center">Seguridad Garantizada</h5>
+                    <p class="text-center">Cumplimos con todos los procesos y protocolos de seguridad y prevención ante el COVID-19</p>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="imagenes/fast-food.png" alt="">
+                    </div>
+                    <h5 class="text-center">La mejor calidad garantizada</h5>
+                    <p class="text-center">Usamos solo los mejores ingredientes para preparar nuestros platos</p>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="imagenes/food.png" alt="">
+                    </div>
+                    <h5 class="text-center">Variedad de Platos</h5>
+                    <p class="text-center">En nuestra carta encontrarás una gran variedad de platos, individuales, en menús o en combos</p>
+                </div>
+            </section>
+            <div class="row mt-3">
+                <section class="horario col-4">
+                    <p class="text-center mt-3 fw-bold">Horario de Apertura</p>
+                    <p class="text-center fst-italic">Lunes: 12:30 - 16:30 | 20:00 - 00:30</p>
+                    <p class="text-center fst-italic">Martes: 12:30 - 16:30 | 20:00 - 00:30</p>
+                    <p class="text-center fst-italic">Miércoles: 12:30 - 16:30 | 20:00 - 00:30</p>
+                    <p class="text-center fst-italic">Jueves: 12:30 - 16:30 | 20:00 - 00:30</p>
+                    <p class="text-center fst-italic">Viernes: 12:30 - 16:30 | 20:00 - 00:30</p>
+                    <p class="text-center fst-italic">Sábado: 12:30 - 01:00</p>
+                    <p class="text-center fst-italic">Domingo: 12:30 - 01:00</p>
+                </section>
+                <section class="nosotros col-8  d-flex align-items-center" id="nosotros">
+                    <div>
+                        <h2 class="m-4">Sobre Nosotros</h2>
+                        <p class="m-4">España Döner Kebab te ofrece la más exquisita variedad de comida Turca que puedes encontrar en Sevilla. Ven a visitarnos o haz tu pedido online, a través de la Web o descárgate nuestra App en Google Play Store o Apple Store. Verás como te sorprenderemos con nuestras especialidades.</p>
+                    </div>
+                </section>
+            </div>
         </main>
-        <footer>
+        <footer id="donde">
             <div class="col-6">
                 <ul class="diablo list-group list-group-flush">
                     <li class="list-group-item">Calle Flor de Salvia Nº2 - Sevilla</li>
-                    <li class="list-group-item">edidos@kebabsevillaeste.com</li>
+                    <li class="list-group-item">pedidos@kebabsevillaeste.com</li>
                     <li class="list-group-item">955 158 525</li>
                     <li class="list-group-item">954 442 228</li>
                     <li class="list-group-item">631 770 100</li>

@@ -1,21 +1,20 @@
+.container{
+    min-width: 100%;
+}
+
 a.nav-link{
     color: white;
 }
 
-div.info{
-    color: white;
-}
-
 div.imagen{
-    background-image: url(Kebab-grande.jpeg);
+    background-image: url(imagenes/Captura.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-div.negro{
-    background-color: rgba(0,0,0,0.86);
-    opacity: 0.5;
+div.info{
+    color: white;
 }
 
 p.sombra{
@@ -24,4 +23,21 @@ p.sombra{
 
 li.list-group-item{
     color: brown;
+}
+
+div h5{
+    color: green;
+}
+
+.horario{
+    background-color: red;
+    color: white;
+}
+
+.nosotros{
+    background-image: url(imagenes/Kebab_en_tabla.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
 }
