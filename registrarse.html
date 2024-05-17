@@ -18,6 +18,74 @@
                 </a>
             </nav>
         </header>
+        <main class="d-flex justify-content-center">
+            <form class="col-6" action="submit">
+                <h2 class="text-center m-5">Registrarse</h2>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+					<input type="text" class="form-control" placeholder="Nombre y apellidos" name="nombre" id="nombre">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" placeholder="a@a.com" required id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3 form">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" required id="exampleInputPassword1">
+                </div>
+                <div class="row d-flex justify-content-between">
+                    <div class="mb-3 col-3">
+                        <p class="mb-1">Genero:</p>
+                        <div class="form-check">
+                            <input type="radio" name="mi-radio-button" class="form-check-input" id="radio-1">
+                            <label for="radio-1" class="form-check-label">Hombre</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="mi-radio-button" class="form-check-input" id="radio-2">
+                            <label for="radio-2" class="form-check-label">Mujer</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="mi-radio-button" class="form-check-input" id="radio-2">
+                            <label for="radio-2" class="form-check-label">No binario</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="mi-radio-button" class="form-check-input" id="radio-2">
+                            <label for="radio-2" class="form-check-label">Mamut</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="mi-radio-button" class="form-check-input" id="radio-2">
+                            <label for="radio-2" class="form-check-label">Amigo</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="mi-radio-button" disabled class="form-check-input" id="radio-2">
+                            <label for="radio-2" class="form-check-label">Enemigo</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Pais</label>
+							<select name="pais" id="pais" required class="form-select">
+								<option value="españa">Mexico</option>
+								<option value="mexico">España</option>
+								<option value="argentina">Argentina</option>
+                                <option value="peru" disabled>Perú</option>
+							</select>
+                            <div class="mt-3">
+                                <label for="nombre" class="form-label">Tarjeta de crédito</label>
+                                <input type="text" class="form-control" required placeholder="xxxx-xxxx-xxxx" name="nombre" id="nombre">
+                                <p class="fst-italic">Nosotros no robamos amigo, aqui solo vender kebab</p>
+                            </div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" required id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Aceptar las condiciones de uso</label>
+                      </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-danger">Registrarse</button>
+                </div>
+              </form>
+        </main>
     </div>
 </body>
 </html>
